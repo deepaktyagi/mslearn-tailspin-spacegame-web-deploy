@@ -84,6 +84,6 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure App Service Deploy: website'
             inputs:
-              azureSubscription: 'ITS-ITS-IAAS-POC'
+              azureSubscription: 'a3c73f82-7d6c-40c1-b7ff-09de1de628c3'
               appName: '$(WebAppName)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
